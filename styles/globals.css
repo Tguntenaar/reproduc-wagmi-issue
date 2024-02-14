@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:opsz,wght@8..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:opsz,wght@8..144,500&family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root, html, body{
+    background-color: #14161A;
+    background-image:
+        radial-gradient(circle at 100% 2500px, rgba(55, 83, 166, 0.2) 50px, transparent 600px),
+        radial-gradient(circle at 0% 1650px, rgba(233, 53, 193, 0.2) 50px, transparent 700px),
+        radial-gradient(circle at 100% 4500px, rgba(55, 83, 166, 0.2) 50px, transparent 500px),
+        radial-gradient(circle at 0% 4100px, rgba(233, 53, 193, 0.2) 50px, transparent 600px);
+    background-size: 100% 100%; /* Adjust the size based on the interval */
+    background-repeat: no-repeat;
+}
+.Purple-background{
+    background-image:
+        radial-gradient(circle at 0% 600px, rgba(228, 104, 217, 0.3) 50px, transparent 700px);
+    background-size: 100% 100%; /* Adjust the size based on the interval */
+    background-repeat: no-repeat;
+}
+
